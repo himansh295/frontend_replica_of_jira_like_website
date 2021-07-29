@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Final Assignment</title>
+    <link rel="stylesheet" href="./style2.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="imp-container">
+      <header>
+        <div class="d-flex">
+          <img src="../images/menu _1.svg" width="50" height="50" class="media-burger">
+          <img src="../images/logo.svg" width="157" height="37" class="logo" />
+
+          <div class="search">
+            <img src="../images/icons-icon_search.svg" width="14" height="12" />
+            <input type="text" placeholder="search..." style="border: none" />
+          </div>
+        </div>
+
+        <div class="media-query-notifi">
+          <img
+            src="../images/notification.svg"
+            width="16"
+            height="28"
+            class="bell"
+          />
+
+          <img src="../images/user_2.svg" width="32" height="33" class="pu1" />
+          <img
+            src="../images/menu.svg"
+            width="32"
+            height="33"
+            class="media-query-menu"
+          />
+        </div>
+      </header>
+
+      <main class="main-container">
+        <aside class="nav d-flex-column">
+          <li class="nav-item">
+            <img
+              src="../images/Dashboard_light.svg"
+              style="margin-right: 7px"
+            />
+            Dashboard <br />
+          </li>
+          <li class="nav-item">
+            <img src="../images/Issues_light.svg" style="margin-right: 7px" />
+            <a
+              href="../issue-list.html"
+              style="color: #7483b3; text-decoration: none"
+              :hover.style="text-decoration: none ;color:white;"
+              >Issues</a
+            >
+            <br />
+          </li>
+          <li class="nav-item">
+            <img src="../images/Create_light.svg" style="margin-right: 7px" />
+            Create <br />
+          </li>
+        </aside>
+
+        <div class="issues-top">
+          <p>
+            Lorem ipsum dolar sit amet,consectetur adipiscing elit.Sed eu
+            consectetur erat.
+          </p>
+          <!-- 
+        <div class="d-flex">
+          <button class="issues-button">
+            <img src="../images/edit.svg" />Edit
+          </button>
+          <button class="issues-button">
+            <img src="../images/Comment.svg" />Comment
+          </button>
+          <button class="issues-button">Assign</button>
+          <button class="issues-button">Wont Fix</button>
+          <button class="issues-button">Accept</button>
+          <button class="issues-button">WorkFlow</button>
+        </div> -->
+
+          <div class="tools">
+            <ul>
+              <li>
+                <a class="issues-button"
+                  ><img
+                    src="../images/edit.svg"
+                    class="issues-button-img"
+                  />Edit</a
+                >
+              </li>
+
+              <li>
+                <a class="issues-button"
+                  ><img
+                    src="../images/Comment.svg"
+                    class="issues-button-img"
+                  />Comment</a
+                >
+              </li>
+
+              <li><a class="issues-button">Assign</a></li>
+
+              <li><a class="issues-button">Won't Fix</a></li>
+
+              <li><a class="issues-button">Accept</a></li>
+
+              <li><a class="issues-button">WorkFlow</a></li>
+            </ul>
+          </div>
+
+          <!-- <section class="issues-details d-flex"> -->
+          <!-- <div class="details-row d-flex-column">
+              <div class="details-field">
+                <span>Type:</span>
+                <span class="details-value">Task</span>
+              </div>
+              <div class="details-field">
+                <span>Priority:</span>
+                <span class="details-value" style="color: red"
+                  >High Priority</span
+                >
+              </div>
+              <div class="details-field">
+                <span>Affect Version/s:</span>
+                <span class="details-value">None</span>
+              </div>
+              <div class="details-field">
+                <span>Components/s:</span>
+                <span class="details-value">None</span>
+              </div>
+              <div class="details-field">
+                <span>Labels/s:</span>
+                <span class="details-value">Webetc</span>
+              </div>
+              <div class="details-field">
+                <span>Sprint:</span>
+                <span class="details-value"></span>
+              </div>
+              <div class="details-field">
+                <span>Story Points:</span>
+                <span class="details-value">6</span>
+              </div>
+            </div>
+
+            <div class="details-row d-flex-column">
+              <div class="details-field">
+                <span>Status:</span>
+                <span class="details-value">New</span>
+              </div>
+              <div class="details-field">
+                <span>Resolution:</span>
+                <span class="details-value">Unrespined</span>
+              </div>
+              <div class="details-field">
+                <span>Fix Version/s:</span>
+                <span class="details-value">None</span>
+              </div>
+            </div>
+            <div class="details-row d-flex-column">
+              <div class="details-field">
+                <span>Assignee:</span>
+                <span class="details-value">Sijo M Peter</span>
+              </div>
+              <div class="details-field">
+                <span>Reporter:</span>
+                <span class="details-value">Sijo M Peter</span>
+              </div>
+              <div class="details-field">
+                <span>Votes:</span>
+                <span class="details-value">0</span>
+              </div>
+              <div class="details-field">
+                <span>Watchers:</span>
+                <span class="details-value" style="color: blue"
+                  >1 stop watching the issue</span
+                >
+              </div>
+              <div class="details-field">
+                <span>Created:</span>
+                <span class="details-value">02.01.2019</span>
+              </div>
+              <div class="details-field">
+                <span>Updated:</span>
+                <span class="details-value">02.01.2019</span>
+              </div>
+            </div> -->
+          <div id="data_details"></div>
+          <!-- </section> -->
+
+          <div class="issue-des-agile">
+            <div class="des-agile">
+              <p style="color: black; font-size: 20px">Descripition<br /></p>
+              <p>
+                <i>Click to add description</i>
+              </p>
+            </div>
+            <div class="des-agile">
+              <p style="color: black; font-size: 20px">Agile<br /></p>
+              <p>Wiew on Board</p>
+            </div>
+          </div>
+
+          <div class="Attachment">
+            <p style="color: gray; font-size: 19px">Attachment<br /></p>
+          </div>
+
+          <div class="attachement-area">
+            <p>
+              <img src="../images/Upload.svg" class="Attachment-image" /><i
+                >Drop files to attach,or
+                <mark style="color: blue; background-color: white"
+                  >breose</mark
+                ></i
+              >
+            </p>
+          </div>
+
+          <div>
+            <p style="color: gray; font-size: 19px; margin-top: 22px">
+              Activity<br />
+            </p>
+          </div>
+
+          <div class="activity-tools">
+            <ul>
+              <li><a class="activity-tool-button">All</a></li>
+              <li>
+                <a class="activity-tool-button"
+                  ><mark
+                    style="
+                      color: blue;
+                      background-color: white;
+                      border-bottom-style: solid;
+                    "
+                    >Comments</mark
+                  ></a
+                >
+              </li>
+              <li><a class="activity-tool-button">Work log</a></li>
+              <li><a class="activity-tool-button">History</a></li>
+              <li><a class="activity-tool-button">Activity</a></li>
+            </ul>
+          </div>
+
+          <div class="activity-ans">
+            <p style="color: gray; font-size: 19px; margin-top: 22px">
+              There are no comments yet on this issue.<br />
+            </p>
+          </div>
+
+          <div class="tools">
+            <ul>
+              <li>
+                <a class="issues-button"
+                  ><img
+                    src="../images/Comment.svg"
+                    class="issues-button-img"
+                  />Comment</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="data_details.ts"></script>
+  </body>
+</html>

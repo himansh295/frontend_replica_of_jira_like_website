@@ -1,0 +1,188 @@
+.issues-top {
+  background-color: white;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(31, 32, 33);
+  /* font- */
+  font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
+    BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
+  padding: 15px 27px 34px 27px;
+}
+.issues-top-bar {
+  background-color: pink;
+  border: 13px 23px 12px 22px;
+  list-style-type: none;
+  outline: none;
+}
+.tools > ul {
+  /* padding: 13px 22px 12px 21px;
+  margin-right: 10px;
+  border-color: #f4f4f5; */
+  display: flex;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 22px;
+}
+
+.issues-button {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ebedf4;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
+    BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
+  font-size: 15px;
+}
+.issues-details {
+  margin-top: 34px;
+}
+.details-row {
+  flex-basis: 33%;
+  margin-right: 120px;
+}
+.details-field {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 400;
+  color: #9ca4ab;
+  font-style: normal;
+  margin-bottom: 17px;
+}
+.details-value {
+  font-weight: 600;
+  color: black;
+}
+
+.issues-button-img {
+  margin-right: 7px;
+}
+
+.issue-des-agile {
+  display: grid;
+  grid-template-columns: 66.66% 33.33%;
+  grid-template-rows: auto;
+  color: darkgray;
+  font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
+    BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.attachement-area {
+  border: 1px darkgray dashed;
+  /* border-spacing: 244px 0px; */
+  /* display: grid;
+  grid-template-columns: 66.66% 33.33%;
+  grid-template-rows: auto; */
+  font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
+    BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
+  /* padding-left: 245px;
+  padding-right: 244px;
+  font-size: 17px;
+  color: #9ca4ab; */
+  margin-right: 400px;
+  /* padding-left: 244px; */
+}
+
+.Attachment-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.attachement-area > p {
+  padding-left: 245px;
+  padding-right: 244px;
+  font-size: 17px;
+  color: #9ca4ab;
+  font-weight: lighter;
+}
+
+.activity-tools > ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 14px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  margin-bottom: 10px;
+  margin-right: 400px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.activity-tool-button {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
+    BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.activity-ans {
+  font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
+    BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    display: block;
+  }
+
+  .issues-top > p {
+    font-size: medium;
+  }
+
+  .tools > ul {
+    display: grid;
+    grid-template-columns: 15% 15% 70%;
+    grid-auto-rows: 50% 50%;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+  }
+
+  .issues-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .details-field {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+  }
+
+  .issue-des-agile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .attachement-area {
+    margin-right: 600px;
+    /* padding-left: 160px; */
+  }
+
+  .attachement-area > p {
+    padding: 0px;
+    padding-left: 160px;
+  }
+
+  .activity-tools > ul {
+    margin-right: 500px;
+  }
+}

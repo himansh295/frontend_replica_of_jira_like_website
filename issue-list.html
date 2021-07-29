@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Final Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="imp-container">
+      <header>
+        <div class="d-flex">
+          <img
+            src="images/menu _1.svg"
+            width="50"
+            height="50"
+            class="media-burger"
+          />
+          <img src="images/logo.svg" width="157" height="37" class="logo" />
+
+          <div class="search">
+            <img src="images/icons-icon_search.svg" width="14" height="12" />
+            <input type="text" placeholder="search..." style="border: none" />
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="images/notification.svg"
+            width="16"
+            height="28"
+            class="bell"
+          />
+
+          <img src="images/user_2.svg" width="32" height="33" class="pu1" />
+          <img
+            src="images/menu.svg"
+            width="32"
+            height="33"
+            class="media-query-menu"
+          />
+        </div>
+      </header>
+
+      <main class="main-container">
+        <aside class="nav d-flex-column">
+          <li class="nav-item">
+            <img src="images/Dashboard_light.svg" style="margin-right: 7px" />
+            Dashboard <br />
+          </li>
+          <li class="nav-item">
+            <img src="images/Issues_light.svg" style="margin-right: 7px" />
+            Issues <br />
+          </li>
+          <li class="nav-item">
+            <img src="images/Create_light.svg" style="margin-right: 7px" />
+            Create <br />
+          </li>
+        </aside>
+
+        <div class="cards">
+          <div class="card-top">
+            <p class="card-issues"><b>Issues</b></p>
+            <img src="images/List deactivated.svg" />
+            <img src="images/Grid.svg" />
+
+            <img
+              class="down-arrow"
+              src="images/down-arrow.png"
+              width="9px"
+              height="9px"
+            />
+            <p class="card-project"><b>Project</b></p>
+            <p class="card-filter"><b>Filter</b></p>
+          </div>
+
+        
+          <div class="card-holders">
+            <a class="card--link" href="src\issue-details.html">
+              <div id="app"></div>
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="src/app.ts"></script>
+  </body>
+</html>
